@@ -8,8 +8,8 @@ class TruckDriver extends Driver{
 }
 
 class AutoRikshawDriver extends Driver{
-    public void drive(){
-        super.drive();
+    public void drive(){//overrides drive method of Driver class
+        super.drive(); //calling method from (Driver)super class
         System.out.println("I drive auto rikshaw");
     }
 }
